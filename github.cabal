@@ -98,6 +98,7 @@ library
     GitHub.Data.Actions.WorkflowJobs
     GitHub.Data.Actions.WorkflowRuns
     GitHub.Data.Activities
+    GitHub.Data.Checks
     GitHub.Data.Comments
     GitHub.Data.Content
     GitHub.Data.Definitions
@@ -146,6 +147,7 @@ library
     GitHub.Endpoints.GitData.Commits
     GitHub.Endpoints.GitData.References
     GitHub.Endpoints.GitData.Trees
+    GitHub.Endpoints.Checks
     GitHub.Endpoints.Issues
     GitHub.Endpoints.Issues.Comments
     GitHub.Endpoints.Issues.Events

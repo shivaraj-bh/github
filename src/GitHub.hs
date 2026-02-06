@@ -104,6 +104,11 @@ module GitHub (
     treeR,
     nestedTreeR,
 
+    -- * Checks
+    -- | See <https://docs.github.com/en/rest/checks>
+    createCheckRunR,
+    updateCheckRunR,
+
     -- * Issues
     -- | See <https://developer.github.com/v3/issues/>
     --
@@ -512,6 +517,7 @@ import GitHub.Endpoints.GitData.Blobs
 import GitHub.Endpoints.GitData.Commits
 import GitHub.Endpoints.GitData.References
 import GitHub.Endpoints.GitData.Trees
+import GitHub.Endpoints.Checks
 import GitHub.Endpoints.Issues
 import GitHub.Endpoints.Issues.Comments
 import GitHub.Endpoints.Issues.Events
