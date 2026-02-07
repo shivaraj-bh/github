@@ -98,6 +98,7 @@ library
     GitHub.Data.Actions.WorkflowJobs
     GitHub.Data.Actions.WorkflowRuns
     GitHub.Data.Activities
+    GitHub.Data.Apps
     GitHub.Data.Checks
     GitHub.Data.Comments
     GitHub.Data.Content
@@ -140,6 +141,7 @@ library
     GitHub.Endpoints.Activity.Notifications
     GitHub.Endpoints.Activity.Starring
     GitHub.Endpoints.Activity.Watching
+    GitHub.Endpoints.Apps
     GitHub.Endpoints.Enterprise.Organizations
     GitHub.Endpoints.Gists
     GitHub.Endpoints.Gists.Comments

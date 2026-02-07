@@ -17,6 +17,10 @@ module GitHub (
     -- * Activity
     -- | See <https://developer.github.com/v3/activity/>
 
+    -- * Apps
+    -- | See <https://developer.github.com/v3/apps/>
+    createAccessTokenR,
+
     -- ** Events
     -- | See <https://developer.github.com/v3/activity/events/>
     repositoryEventsR,
@@ -511,6 +515,7 @@ import GitHub.Endpoints.Activity.Events
 import GitHub.Endpoints.Activity.Notifications
 import GitHub.Endpoints.Activity.Starring
 import GitHub.Endpoints.Activity.Watching
+import GitHub.Endpoints.Apps
 import GitHub.Endpoints.Gists
 import GitHub.Endpoints.Gists.Comments
 import GitHub.Endpoints.GitData.Blobs
